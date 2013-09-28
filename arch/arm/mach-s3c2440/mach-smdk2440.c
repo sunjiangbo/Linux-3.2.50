@@ -202,6 +202,7 @@ static struct platform_device *smdk2440_devices[] __initdata = {
 	&s3c_device_i2c0,
 	&s3c_device_iis,
 	&smdk2440_device_eth,
+	&s3c_device_usbgadget,
 };
 
 static void __init smdk2440_map_io(void)
